@@ -76,9 +76,7 @@ var copyPassword = function () {
   document.execCommand("copy");
 };
 
-const correctLength = () => {
-    
-}
+const correctLength = () => {};
 
 const generatePassword = (criteria) => {
   let passwordText = "";
@@ -161,6 +159,6 @@ window.addEventListener("keyup", (event) => {
   }
 });
 
-$copyButton.addEventListener("click", () => {
-  console.log("hello!");
-});
+$copyButton.addEventListener("click", copyPassword);
+
+$generateButton.addEventListener("click", writePassword);
