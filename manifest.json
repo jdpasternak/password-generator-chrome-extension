@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Password Generator",
+  "description": "Password generator",
+  "version": "1",
+  "author": "Jake Pasternak",
+  "browser_action": {
+    "default_title": "Password Generator",
+    "default_popup": "popup.html"
+  }
+}

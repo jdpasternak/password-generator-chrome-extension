@@ -1,0 +1,46 @@
+<link rel="stylesheet" href="styles.css" />
+<h1>Password Generator</h1>
+<div class="center">
+  <button id="copyButton" class="btn mb-1"><u>C</u>opy</button>
+  <input
+    type="text"
+    id="passwordText"
+    placeholder="Your Secure Password"
+    readonly
+  />
+</div>
+<div>
+  <label>
+    Lowercase [<u>A</u>]
+    <input type="checkbox" value="lowercase" checked="true" />
+  </label>
+</div>
+<div>
+  <label>
+    Uppercase [<u>S</u>]
+    <input type="checkbox" value="uppercase" checked="true" />
+  </label>
+</div>
+<div>
+  <label for="numbers">
+    Numbers [<u>D</u>]
+    <input type="checkbox" value="numbers" id="numbers" checked="true" />
+  </label>
+</div>
+<div>
+  <label>
+    Special Characters [<u>F</u>]
+    <input type="checkbox" value="specialCharacters" checked="true" />
+  </label>
+</div>
+<div>
+  <label for="passwordLength" class="mb-1 center">
+    Password Length &larr;<u>J</u> <u>K</u>&rarr;</label
+  >
+  <input type="number" min="8" max="128" value="20" id="passwordLength" />
+</div>
+<div class="center">
+  <button class="btn" id="generateButton"><u>G</u>enerate</button>
+</div>
+
+<script src="script.js"></script>

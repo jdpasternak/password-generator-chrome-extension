@@ -1,0 +1,17 @@
+div {
+  margin-bottom: 0.5rem;
+}
+
+.btn {
+  border: 0.01rem blue solid;
+  border-radius: 0.5rem;
+  padding: 0.4rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.mb-1 {
+  margin-bottom: 0.5rem;
+}
